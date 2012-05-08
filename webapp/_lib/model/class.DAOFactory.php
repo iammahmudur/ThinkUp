@@ -179,7 +179,10 @@ class DAOFactory {
     //ShortLink MySQL DAO
         'ShortLinkDAO' => array (
     //MySQL Version
-            'mysql' => 'ShortLinkMySQLDAO')
+            'mysql' => 'ShortLinkMySQLDAO'),
+        'InsightBaselineDAO' => array (
+    //MySQL Version
+            'mysql' => 'InsightBaselineMySQLDAO')
     );
 
     /*
